@@ -1,0 +1,3 @@
+W:/git/voronoi-world-gen/cmake-build-debug/CMakeFiles/voronoi_world_gen.dir
+W:/git/voronoi-world-gen/cmake-build-debug/CMakeFiles/edit_cache.dir
+W:/git/voronoi-world-gen/cmake-build-debug/CMakeFiles/rebuild_cache.dir
