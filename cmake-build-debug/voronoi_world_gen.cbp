@@ -5,7 +5,7 @@
 		<Option title="voronoi_world_gen"/>
 		<Option makefile_is_custom="1"/>
 		<Option compiler="gcc"/>
-		<Option virtualFolders="CMake Files\;"/>
+		<Option virtualFolders="CMake Files\;CMake Files\SFML\;CMake Files\SFML\lib\;CMake Files\SFML\lib\cmake\;CMake Files\SFML\lib\cmake\SFML\;"/>
 		<Build>
 			<Target title="all">
 				<Option working_dir="W:/git/voronoi-world-gen/cmake-build-debug"/>
@@ -113,6 +113,24 @@
 		</Unit>
 		<Unit filename="W:/git/voronoi-world-gen/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="W:/git/voronoi-world-gen/SFML/lib/cmake/SFML/SFMLConfig.cmake">
+			<Option virtualFolder="CMake Files\SFML\lib\cmake\SFML\"/>
+		</Unit>
+		<Unit filename="W:/git/voronoi-world-gen/SFML/lib/cmake/SFML/SFMLConfigDependencies.cmake">
+			<Option virtualFolder="CMake Files\SFML\lib\cmake\SFML\"/>
+		</Unit>
+		<Unit filename="W:/git/voronoi-world-gen/SFML/lib/cmake/SFML/SFMLConfigVersion.cmake">
+			<Option virtualFolder="CMake Files\SFML\lib\cmake\SFML\"/>
+		</Unit>
+		<Unit filename="W:/git/voronoi-world-gen/SFML/lib/cmake/SFML/SFMLStaticTargets-debug.cmake">
+			<Option virtualFolder="CMake Files\SFML\lib\cmake\SFML\"/>
+		</Unit>
+		<Unit filename="W:/git/voronoi-world-gen/SFML/lib/cmake/SFML/SFMLStaticTargets-release.cmake">
+			<Option virtualFolder="CMake Files\SFML\lib\cmake\SFML\"/>
+		</Unit>
+		<Unit filename="W:/git/voronoi-world-gen/SFML/lib/cmake/SFML/SFMLStaticTargets.cmake">
+			<Option virtualFolder="CMake Files\SFML\lib\cmake\SFML\"/>
 		</Unit>
 	</Project>
 </CodeBlocks_project_file>

@@ -10,4 +10,9 @@ add_executable(voronoi_world_gen src/main.cpp
         src/objects/Cell.cpp src/objects/Cell.h
         )
 
+set(SFML_STATIC_LIBRARIES TRUE)
+set(SFML_DIR "C:/SFML/lib/cmake/SFML")
+find_package(SFML 2.5 COMPONENTS system window graphics audio network REQUIRED)
+
+
 include_directories(headers c:/SFML/include)

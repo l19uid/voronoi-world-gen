@@ -5,8 +5,6 @@ public:
     vec2 GetPosition();
     Point(vec2 position);
 
-    Point();
-
 private:
     vec2 _position = vec2(0, 0);
 };

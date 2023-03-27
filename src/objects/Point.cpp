@@ -7,5 +7,3 @@ vec2 Point::GetPosition() {
 Point::Point(vec2 position) {
     this->_position = position;
 }
-
-Point::Point() {}
