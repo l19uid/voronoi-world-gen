@@ -62,7 +62,7 @@ CMAKE_BINARY_DIR = W:\git\voronoi-world-gen\cmake-build-debug
 # Directory level rules for the build root directory
 
 # The main recursive "all" target.
-all: CMakeFiles/voronoi_world_gen.dir/all
+all: CMakeFiles/voronoi-world-gen.dir/all
 .PHONY : all
 
 # The main recursive "preinstall" target.
@@ -70,34 +70,34 @@ preinstall:
 .PHONY : preinstall
 
 # The main recursive "clean" target.
-clean: CMakeFiles/voronoi_world_gen.dir/clean
+clean: CMakeFiles/voronoi-world-gen.dir/clean
 .PHONY : clean
 
 #=============================================================================
-# Target rules for target CMakeFiles/voronoi_world_gen.dir
+# Target rules for target CMakeFiles/voronoi-world-gen.dir
 
 # All Build rule for target.
-CMakeFiles/voronoi_world_gen.dir/all:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\voronoi_world_gen.dir\build.make CMakeFiles/voronoi_world_gen.dir/depend
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\voronoi_world_gen.dir\build.make CMakeFiles/voronoi_world_gen.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=W:\git\voronoi-world-gen\cmake-build-debug\CMakeFiles --progress-num=1,2,3,4,5 "Built target voronoi_world_gen"
-.PHONY : CMakeFiles/voronoi_world_gen.dir/all
+CMakeFiles/voronoi-world-gen.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\voronoi-world-gen.dir\build.make CMakeFiles/voronoi-world-gen.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\voronoi-world-gen.dir\build.make CMakeFiles/voronoi-world-gen.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=W:\git\voronoi-world-gen\cmake-build-debug\CMakeFiles --progress-num=1,2,3,4,5,6 "Built target voronoi-world-gen"
+.PHONY : CMakeFiles/voronoi-world-gen.dir/all
 
 # Build rule for subdir invocation for target.
-CMakeFiles/voronoi_world_gen.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start W:\git\voronoi-world-gen\cmake-build-debug\CMakeFiles 5
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/voronoi_world_gen.dir/all
+CMakeFiles/voronoi-world-gen.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start W:\git\voronoi-world-gen\cmake-build-debug\CMakeFiles 6
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/voronoi-world-gen.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start W:\git\voronoi-world-gen\cmake-build-debug\CMakeFiles 0
-.PHONY : CMakeFiles/voronoi_world_gen.dir/rule
+.PHONY : CMakeFiles/voronoi-world-gen.dir/rule
 
 # Convenience name for target.
-voronoi_world_gen: CMakeFiles/voronoi_world_gen.dir/rule
-.PHONY : voronoi_world_gen
+voronoi-world-gen: CMakeFiles/voronoi-world-gen.dir/rule
+.PHONY : voronoi-world-gen
 
 # clean rule for target.
-CMakeFiles/voronoi_world_gen.dir/clean:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\voronoi_world_gen.dir\build.make CMakeFiles/voronoi_world_gen.dir/clean
-.PHONY : CMakeFiles/voronoi_world_gen.dir/clean
+CMakeFiles/voronoi-world-gen.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\voronoi-world-gen.dir\build.make CMakeFiles/voronoi-world-gen.dir/clean
+.PHONY : CMakeFiles/voronoi-world-gen.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.

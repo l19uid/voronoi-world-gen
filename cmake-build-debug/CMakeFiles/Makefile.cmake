@@ -57,5 +57,5 @@ set(CMAKE_MAKEFILE_PRODUCTS
 
 # Dependency information for all targets:
 set(CMAKE_DEPEND_INFO_FILES
-  "CMakeFiles/voronoi_world_gen.dir/DependInfo.cmake"
+  "CMakeFiles/voronoi-world-gen.dir/DependInfo.cmake"
   )

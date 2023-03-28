@@ -116,24 +116,24 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named voronoi_world_gen
+# Target rules for targets named voronoi-world-gen
 
 # Build rule for target.
-voronoi_world_gen: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 voronoi_world_gen
-.PHONY : voronoi_world_gen
+voronoi-world-gen: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 voronoi-world-gen
+.PHONY : voronoi-world-gen
 
 # fast build rule for target.
-voronoi_world_gen/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\voronoi_world_gen.dir\build.make CMakeFiles/voronoi_world_gen.dir/build
-.PHONY : voronoi_world_gen/fast
+voronoi-world-gen/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\voronoi-world-gen.dir\build.make CMakeFiles/voronoi-world-gen.dir/build
+.PHONY : voronoi-world-gen/fast
 
 src/main.obj: src/main.cpp.obj
 .PHONY : src/main.obj
 
 # target to build an object file
 src/main.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\voronoi_world_gen.dir\build.make CMakeFiles/voronoi_world_gen.dir/src/main.cpp.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\voronoi-world-gen.dir\build.make CMakeFiles/voronoi-world-gen.dir/src/main.cpp.obj
 .PHONY : src/main.cpp.obj
 
 src/main.i: src/main.cpp.i
@@ -141,7 +141,7 @@ src/main.i: src/main.cpp.i
 
 # target to preprocess a source file
 src/main.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\voronoi_world_gen.dir\build.make CMakeFiles/voronoi_world_gen.dir/src/main.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\voronoi-world-gen.dir\build.make CMakeFiles/voronoi-world-gen.dir/src/main.cpp.i
 .PHONY : src/main.cpp.i
 
 src/main.s: src/main.cpp.s
@@ -149,7 +149,7 @@ src/main.s: src/main.cpp.s
 
 # target to generate assembly for a file
 src/main.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\voronoi_world_gen.dir\build.make CMakeFiles/voronoi_world_gen.dir/src/main.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\voronoi-world-gen.dir\build.make CMakeFiles/voronoi-world-gen.dir/src/main.cpp.s
 .PHONY : src/main.cpp.s
 
 src/objects/Cell.obj: src/objects/Cell.cpp.obj
@@ -157,7 +157,7 @@ src/objects/Cell.obj: src/objects/Cell.cpp.obj
 
 # target to build an object file
 src/objects/Cell.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\voronoi_world_gen.dir\build.make CMakeFiles/voronoi_world_gen.dir/src/objects/Cell.cpp.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\voronoi-world-gen.dir\build.make CMakeFiles/voronoi-world-gen.dir/src/objects/Cell.cpp.obj
 .PHONY : src/objects/Cell.cpp.obj
 
 src/objects/Cell.i: src/objects/Cell.cpp.i
@@ -165,7 +165,7 @@ src/objects/Cell.i: src/objects/Cell.cpp.i
 
 # target to preprocess a source file
 src/objects/Cell.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\voronoi_world_gen.dir\build.make CMakeFiles/voronoi_world_gen.dir/src/objects/Cell.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\voronoi-world-gen.dir\build.make CMakeFiles/voronoi-world-gen.dir/src/objects/Cell.cpp.i
 .PHONY : src/objects/Cell.cpp.i
 
 src/objects/Cell.s: src/objects/Cell.cpp.s
@@ -173,7 +173,7 @@ src/objects/Cell.s: src/objects/Cell.cpp.s
 
 # target to generate assembly for a file
 src/objects/Cell.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\voronoi_world_gen.dir\build.make CMakeFiles/voronoi_world_gen.dir/src/objects/Cell.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\voronoi-world-gen.dir\build.make CMakeFiles/voronoi-world-gen.dir/src/objects/Cell.cpp.s
 .PHONY : src/objects/Cell.cpp.s
 
 src/objects/Line.obj: src/objects/Line.cpp.obj
@@ -181,7 +181,7 @@ src/objects/Line.obj: src/objects/Line.cpp.obj
 
 # target to build an object file
 src/objects/Line.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\voronoi_world_gen.dir\build.make CMakeFiles/voronoi_world_gen.dir/src/objects/Line.cpp.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\voronoi-world-gen.dir\build.make CMakeFiles/voronoi-world-gen.dir/src/objects/Line.cpp.obj
 .PHONY : src/objects/Line.cpp.obj
 
 src/objects/Line.i: src/objects/Line.cpp.i
@@ -189,7 +189,7 @@ src/objects/Line.i: src/objects/Line.cpp.i
 
 # target to preprocess a source file
 src/objects/Line.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\voronoi_world_gen.dir\build.make CMakeFiles/voronoi_world_gen.dir/src/objects/Line.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\voronoi-world-gen.dir\build.make CMakeFiles/voronoi-world-gen.dir/src/objects/Line.cpp.i
 .PHONY : src/objects/Line.cpp.i
 
 src/objects/Line.s: src/objects/Line.cpp.s
@@ -197,7 +197,7 @@ src/objects/Line.s: src/objects/Line.cpp.s
 
 # target to generate assembly for a file
 src/objects/Line.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\voronoi_world_gen.dir\build.make CMakeFiles/voronoi_world_gen.dir/src/objects/Line.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\voronoi-world-gen.dir\build.make CMakeFiles/voronoi-world-gen.dir/src/objects/Line.cpp.s
 .PHONY : src/objects/Line.cpp.s
 
 src/objects/Point.obj: src/objects/Point.cpp.obj
@@ -205,7 +205,7 @@ src/objects/Point.obj: src/objects/Point.cpp.obj
 
 # target to build an object file
 src/objects/Point.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\voronoi_world_gen.dir\build.make CMakeFiles/voronoi_world_gen.dir/src/objects/Point.cpp.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\voronoi-world-gen.dir\build.make CMakeFiles/voronoi-world-gen.dir/src/objects/Point.cpp.obj
 .PHONY : src/objects/Point.cpp.obj
 
 src/objects/Point.i: src/objects/Point.cpp.i
@@ -213,7 +213,7 @@ src/objects/Point.i: src/objects/Point.cpp.i
 
 # target to preprocess a source file
 src/objects/Point.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\voronoi_world_gen.dir\build.make CMakeFiles/voronoi_world_gen.dir/src/objects/Point.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\voronoi-world-gen.dir\build.make CMakeFiles/voronoi-world-gen.dir/src/objects/Point.cpp.i
 .PHONY : src/objects/Point.cpp.i
 
 src/objects/Point.s: src/objects/Point.cpp.s
@@ -221,8 +221,32 @@ src/objects/Point.s: src/objects/Point.cpp.s
 
 # target to generate assembly for a file
 src/objects/Point.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\voronoi_world_gen.dir\build.make CMakeFiles/voronoi_world_gen.dir/src/objects/Point.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\voronoi-world-gen.dir\build.make CMakeFiles/voronoi-world-gen.dir/src/objects/Point.cpp.s
 .PHONY : src/objects/Point.cpp.s
+
+src/utils/enums.obj: src/utils/enums.cpp.obj
+.PHONY : src/utils/enums.obj
+
+# target to build an object file
+src/utils/enums.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\voronoi-world-gen.dir\build.make CMakeFiles/voronoi-world-gen.dir/src/utils/enums.cpp.obj
+.PHONY : src/utils/enums.cpp.obj
+
+src/utils/enums.i: src/utils/enums.cpp.i
+.PHONY : src/utils/enums.i
+
+# target to preprocess a source file
+src/utils/enums.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\voronoi-world-gen.dir\build.make CMakeFiles/voronoi-world-gen.dir/src/utils/enums.cpp.i
+.PHONY : src/utils/enums.cpp.i
+
+src/utils/enums.s: src/utils/enums.cpp.s
+.PHONY : src/utils/enums.s
+
+# target to generate assembly for a file
+src/utils/enums.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\voronoi-world-gen.dir\build.make CMakeFiles/voronoi-world-gen.dir/src/utils/enums.cpp.s
+.PHONY : src/utils/enums.cpp.s
 
 # Help Target
 help:
@@ -232,7 +256,7 @@ help:
 	@echo ... depend
 	@echo ... edit_cache
 	@echo ... rebuild_cache
-	@echo ... voronoi_world_gen
+	@echo ... voronoi-world-gen
 	@echo ... src/main.obj
 	@echo ... src/main.i
 	@echo ... src/main.s
@@ -245,6 +269,9 @@ help:
 	@echo ... src/objects/Point.obj
 	@echo ... src/objects/Point.i
 	@echo ... src/objects/Point.s
+	@echo ... src/utils/enums.obj
+	@echo ... src/utils/enums.i
+	@echo ... src/utils/enums.s
 .PHONY : help
 
 

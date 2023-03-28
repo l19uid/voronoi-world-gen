@@ -1,0 +1,3 @@
+"C:\Program Files\JetBrains\CLion 2022.2\bin\cmake\win\bin\cmake.exe" -E rm -f CMakeFiles\voronoi-world-gen.dir/objects.a
+C:\mingw64\bin\ar.exe qc CMakeFiles\voronoi-world-gen.dir/objects.a @CMakeFiles\voronoi-world-gen.dir\objects1.rsp
+C:\mingw64\bin\g++.exe -g -Wl,--whole-archive CMakeFiles\voronoi-world-gen.dir/objects.a -Wl,--no-whole-archive -o voronoi-world-gen.exe -Wl,--out-implib,libvoronoi-world-gen.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\voronoi-world-gen.dir\linklibs.rsp
