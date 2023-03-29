@@ -7,6 +7,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/voronoi-world-gen.dir/src/objects/Line.cpp.obj.d"
   "CMakeFiles/voronoi-world-gen.dir/src/objects/Point.cpp.obj"
   "CMakeFiles/voronoi-world-gen.dir/src/objects/Point.cpp.obj.d"
+  "CMakeFiles/voronoi-world-gen.dir/src/objects/World.cpp.obj"
+  "CMakeFiles/voronoi-world-gen.dir/src/objects/World.cpp.obj.d"
   "CMakeFiles/voronoi-world-gen.dir/src/utils/enums.cpp.obj"
   "CMakeFiles/voronoi-world-gen.dir/src/utils/enums.cpp.obj.d"
   "libvoronoi-world-gen.dll.a"

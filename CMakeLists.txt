@@ -10,7 +10,7 @@ add_executable(
         src/utils/random.h
         src/utils/enums.cpp
         src/utils/FastNoiseLite.h
-        src/objects/Line.cpp src/objects/Line.h)
+        src/objects/Line.cpp src/objects/Line.h src/objects/World.cpp src/objects/World.h)
 
 set(SFML_STATIC_LIBRARIES TRUE)
 set(SFML_DIR "C:/SFML/lib/cmake/SFML")

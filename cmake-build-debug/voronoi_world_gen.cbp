@@ -109,6 +109,12 @@
 		<Unit filename="W:/git/voronoi-world-gen/src/objects/Point.h">
 			<Option target="voronoi-world-gen"/>
 		</Unit>
+		<Unit filename="W:/git/voronoi-world-gen/src/objects/World.cpp">
+			<Option target="voronoi-world-gen"/>
+		</Unit>
+		<Unit filename="W:/git/voronoi-world-gen/src/objects/World.h">
+			<Option target="voronoi-world-gen"/>
+		</Unit>
 		<Unit filename="W:/git/voronoi-world-gen/src/utils/FastNoiseLite.h">
 			<Option target="voronoi-world-gen"/>
 		</Unit>

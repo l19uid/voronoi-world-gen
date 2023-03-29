@@ -80,12 +80,12 @@ clean: CMakeFiles/voronoi-world-gen.dir/clean
 CMakeFiles/voronoi-world-gen.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\voronoi-world-gen.dir\build.make CMakeFiles/voronoi-world-gen.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\voronoi-world-gen.dir\build.make CMakeFiles/voronoi-world-gen.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=W:\git\voronoi-world-gen\cmake-build-debug\CMakeFiles --progress-num=1,2,3,4,5,6 "Built target voronoi-world-gen"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=W:\git\voronoi-world-gen\cmake-build-debug\CMakeFiles --progress-num=1,2,3,4,5,6,7 "Built target voronoi-world-gen"
 .PHONY : CMakeFiles/voronoi-world-gen.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/voronoi-world-gen.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start W:\git\voronoi-world-gen\cmake-build-debug\CMakeFiles 6
+	$(CMAKE_COMMAND) -E cmake_progress_start W:\git\voronoi-world-gen\cmake-build-debug\CMakeFiles 7
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/voronoi-world-gen.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start W:\git\voronoi-world-gen\cmake-build-debug\CMakeFiles 0
 .PHONY : CMakeFiles/voronoi-world-gen.dir/rule

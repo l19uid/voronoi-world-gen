@@ -5,12 +5,13 @@
 #include <cstdlib>
 #include <ctime>
 #include <SFML/Graphics.hpp>
+#include <random>
 
 class random {
 public:
     static int randomInt(int min, int max)
     {
-        std::srand(std::time(nullptr)); // set seed to current time
+        std::srand(std::time(NULL)); // set seed to current time
         return rand() % max + min; // returns random int between min and max
     }
 
@@ -22,14 +23,17 @@ public:
 
     static sf::Color randomColor()
     {
-        std::srand(std::time(nullptr)); // set seed to current time
+        float seed = static_cast<float>(std::time(nullptr));
+        std::srand(seed); // set seed to current time
         return sf::Color(randomInt(0, 255), randomInt(0, 255), randomInt(0, 255)); // returns random color
     }
 
     static sf::Vector2f randomVector2f(int min, int max)
     {
-        std::srand(std::time(nullptr)); // set seed to current time
-        return sf::Vector2f(randomInt(min, max), randomInt(min, max)); // returns random vector2 float
+        static std::mt19937 generator(std::time(nullptr));
+        std::uniform_real_distribution<float> distribution(min, max);
+        return sf::Vector2f(distribution(generator), distribution(generator)); // returns random vector2 float
     }
+
 };
 #endif //RANDOM_H

@@ -224,6 +224,30 @@ src/objects/Point.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\voronoi-world-gen.dir\build.make CMakeFiles/voronoi-world-gen.dir/src/objects/Point.cpp.s
 .PHONY : src/objects/Point.cpp.s
 
+src/objects/World.obj: src/objects/World.cpp.obj
+.PHONY : src/objects/World.obj
+
+# target to build an object file
+src/objects/World.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\voronoi-world-gen.dir\build.make CMakeFiles/voronoi-world-gen.dir/src/objects/World.cpp.obj
+.PHONY : src/objects/World.cpp.obj
+
+src/objects/World.i: src/objects/World.cpp.i
+.PHONY : src/objects/World.i
+
+# target to preprocess a source file
+src/objects/World.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\voronoi-world-gen.dir\build.make CMakeFiles/voronoi-world-gen.dir/src/objects/World.cpp.i
+.PHONY : src/objects/World.cpp.i
+
+src/objects/World.s: src/objects/World.cpp.s
+.PHONY : src/objects/World.s
+
+# target to generate assembly for a file
+src/objects/World.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\voronoi-world-gen.dir\build.make CMakeFiles/voronoi-world-gen.dir/src/objects/World.cpp.s
+.PHONY : src/objects/World.cpp.s
+
 src/utils/enums.obj: src/utils/enums.cpp.obj
 .PHONY : src/utils/enums.obj
 
@@ -269,6 +293,9 @@ help:
 	@echo ... src/objects/Point.obj
 	@echo ... src/objects/Point.i
 	@echo ... src/objects/Point.s
+	@echo ... src/objects/World.obj
+	@echo ... src/objects/World.i
+	@echo ... src/objects/World.s
 	@echo ... src/utils/enums.obj
 	@echo ... src/utils/enums.i
 	@echo ... src/utils/enums.s

@@ -12,6 +12,7 @@ set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "W:/git/voronoi-world-gen/src/objects/Cell.cpp" "CMakeFiles/voronoi-world-gen.dir/src/objects/Cell.cpp.obj" "gcc" "CMakeFiles/voronoi-world-gen.dir/src/objects/Cell.cpp.obj.d"
   "W:/git/voronoi-world-gen/src/objects/Line.cpp" "CMakeFiles/voronoi-world-gen.dir/src/objects/Line.cpp.obj" "gcc" "CMakeFiles/voronoi-world-gen.dir/src/objects/Line.cpp.obj.d"
   "W:/git/voronoi-world-gen/src/objects/Point.cpp" "CMakeFiles/voronoi-world-gen.dir/src/objects/Point.cpp.obj" "gcc" "CMakeFiles/voronoi-world-gen.dir/src/objects/Point.cpp.obj.d"
+  "W:/git/voronoi-world-gen/src/objects/World.cpp" "CMakeFiles/voronoi-world-gen.dir/src/objects/World.cpp.obj" "gcc" "CMakeFiles/voronoi-world-gen.dir/src/objects/World.cpp.obj.d"
   "W:/git/voronoi-world-gen/src/utils/enums.cpp" "CMakeFiles/voronoi-world-gen.dir/src/utils/enums.cpp.obj" "gcc" "CMakeFiles/voronoi-world-gen.dir/src/utils/enums.cpp.obj.d"
   )
 
